@@ -10,5 +10,6 @@ public class TernaryOperator {
 
         System.out.println(number == 1 ? true : false);
 
+        System.out.printf("%n%nThe program will continue after this.%n");
     }
 }
