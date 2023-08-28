@@ -2,7 +2,7 @@
 
 ## Conditional Branches
 
-### If
+### if
 
 <img src="svg/if_statement.svg" alt="If statement diagram" style="width:50%;" />
 
@@ -31,7 +31,7 @@ public class IfStatement {
 
 
 
-### if-else
+### if else
 
 <img src="svg/if_else.svg" alt="If Else If Diagram" style="width:50%;" />
 
@@ -62,7 +62,7 @@ public class IfElse {
 
 
 
-### Ternary Operator
+### ternary operator
 
 <img src="svg/ternary_operator.svg" alt="Ternary Operator diagram" style="width:50%;" />
 
@@ -154,7 +154,7 @@ public class IfLadder {
 
 
 
-### Switch 
+### switch 
 
 <img src="svg/switch_statement.svg" alt="Switch statement diagram" style="width:50%;" />
 
@@ -256,7 +256,7 @@ public class TryCatch {
             scanner.close(); // <- The finally block is a good place to do this.
         }
         
-        System.out.println("The program can continue after this.");
+        System.out.printf("%n%nThe program can continue after this.%n");
     }
 }
 
@@ -425,3 +425,5 @@ public class ListForEach {
 }
 
 ```
+
+ 
