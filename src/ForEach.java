@@ -6,6 +6,6 @@ public class ForEach {
             System.out.println(number);
         }
 
-        System.out.printf("%nThe program will continue after this.%n");
+        System.out.printf("%nThe conditional is complete.%n");
     }
 }

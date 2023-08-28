@@ -27,6 +27,6 @@ public class TryCatch {
             scanner.close(); // <- The finally block is a good place to do this.
         }
 
-        System.out.printf("%n%nThe program can continue after this.%n");
+        System.out.printf("%n%nThe conditional is complete.%n");
     }
 }

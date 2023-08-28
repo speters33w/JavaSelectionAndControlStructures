@@ -14,6 +14,6 @@ public class EnhancedSwitchStatement {
             default -> System.out.print("Number is not between 1 and 4");  // if random number is 0 or 5
         }
 
-        System.out.printf("%nThe program will continue after this.%n");
+        System.out.printf("%nThe conditional is complete.%n");
     }
 }

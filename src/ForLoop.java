@@ -14,6 +14,6 @@ public class ForLoop {
             System.out.printf("%nEnd of loop...%n");
         }
 
-        System.out.printf("%nThe program will continue after this.%n");
+        System.out.printf("%nThe conditional is complete.%n");
     }
 }

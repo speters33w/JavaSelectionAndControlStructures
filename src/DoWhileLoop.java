@@ -28,6 +28,6 @@ public class DoWhileLoop {
             System.out.printf("%nEnd of loop...%n");
         } while (number < 3);
 
-        System.out.printf("%nThe program will continue after this.%n");
+        System.out.printf("%n%nThe conditional is complete.%n");
     }
 }

@@ -23,7 +23,7 @@ public class IfStatement {
             System.out.print(true);
         }
 
-        System.out.printf("%n%nThe program will continue after this.%n");
+        System.out.printf("%n%nThe conditional is complete.%n");
     }
 }
 
@@ -54,7 +54,7 @@ public class IfElse {
             System.out.print(true);
         }
         
-        System.out.printf("%nThe program will continue after this.%n");
+        System.out.printf("%nThe conditional is complete.%n");
     }
 }
 
@@ -81,7 +81,7 @@ public class TernaryOperator {
 
         System.out.println(number == 1 ? true : false);
 
-        System.out.printf("%n%nThe program will continue after this.%n");
+        System.out.printf("%n%nThe conditional is complete.%n");
     }
 }
 
@@ -112,7 +112,7 @@ public class IfElseIf {
             System.out.print(true);
         }
 
-        System.out.printf("%n%nThe program will continue after this.%n");
+        System.out.printf("%n%nThe conditional is complete.%n");
     }
 }
 
@@ -146,7 +146,7 @@ public class IfLadder {
             System.out.print("Neither true nor false");
         }
          
-        System.out.printf("%n%nThe program will continue after this.%n");
+        System.out.printf("%n%nThe conditional is complete.%n");
     }
 }
 
@@ -187,7 +187,7 @@ public class SwitchStatement {
                 break;
         }
         
-            System.out.printf("%nThe program will continue after this.%n");
+            System.out.printf("%nThe conditional is complete.%n");
     }
 }
 
@@ -212,7 +212,7 @@ public class EnhancedSwitchStatement {
             default -> System.out.print("Number is not between 1 and 4");  // if random number is 0 or 5
         }
         
-            System.out.printf("%nThe program will continue after this.%n");
+            System.out.printf("%nThe conditional is complete.%n");
     }
 }
 
@@ -256,7 +256,7 @@ public class TryCatch {
             scanner.close(); // <- The finally block is a good place to do this.
         }
         
-        System.out.printf("%n%nThe program can continue after this.%n");
+        System.out.printf("%n%nThe conditional is complete.%n");
     }
 }
 
@@ -301,7 +301,7 @@ public class WhileLoop {
             System.out.printf("%nEnd of loop...%n");
         }
 
-        System.out.printf("%n%nThe program will continue after this.%n");
+        System.out.printf("%n%nThe conditional is complete.%n");
     }
 }
 
@@ -347,7 +347,7 @@ public class DoWhileLoop {
             System.out.printf("%nEnd of loop...%n");
         } while (number < 3);
         
-        System.out.printf("%nThe program will continue after this.%n");
+        System.out.printf("%nThe conditional is complete.%n");
     }
 }
 
@@ -378,7 +378,7 @@ public class ForLoop {
             System.out.printf("%nEnd of loop...%n");
         }
         
-        System.out.printf("%nThe program will continue after this.%n");
+        System.out.printf("%nThe conditional is complete.%n");
     }
 }
 
@@ -401,7 +401,7 @@ public class ForEach {
             System.out.println(number);
         }
 
-        System.out.printf("%nThe program will continue after this.%n");
+        System.out.printf("%nThe conditional is complete.%n");
     }
 }
 
@@ -420,7 +420,7 @@ public class ListForEach {
 
         list.forEach(System.out::println);
 
-        System.out.printf("%nThe program will continue after this.%n");
+        System.out.printf("%nThe conditional is complete.%n");
     }
 }
 

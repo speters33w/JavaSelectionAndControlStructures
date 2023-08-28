@@ -8,6 +8,6 @@ public class ListForEach {
 
         list.forEach(System.out::println);
 
-        System.out.printf("%nThe program will continue after this.%n");
+        System.out.printf("%nThe conditional is complete.%n");
     }
 }

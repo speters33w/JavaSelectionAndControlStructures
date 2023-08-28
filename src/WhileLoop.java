@@ -26,6 +26,6 @@ public class WhileLoop {
             System.out.printf("%nEnd of loop...%n");
         }
 
-        System.out.printf("%n%nThe program will continue after this.%n");
+        System.out.printf("%n%nThe conditional is complete.%n");
     }
 }

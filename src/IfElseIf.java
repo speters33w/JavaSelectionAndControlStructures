@@ -14,6 +14,6 @@ public class IfElseIf {
             System.out.print(true);
         }
 
-        System.out.printf("%n%nThe program will continue after this.%n");
+        System.out.printf("%n%nThe conditional is complete.%n");
     }
 }
